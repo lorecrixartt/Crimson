@@ -144,10 +144,6 @@ body{
        }
 }
 @media only screen and (min-width:0em) and (max-width:31em){
-     .body{
-        background-size: auto;
-        background-repeat: repeat-y;
-    }
     #archives{
     display: none;
    }
