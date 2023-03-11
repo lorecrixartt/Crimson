@@ -124,15 +124,10 @@ body{
     color: rgb(254, 135, 191);
 }
 .footer{
-    text-align: center;
-    justify-content: center;
-    color: rgba(240, 248, 255, 0.59);
+   display: none;
 }
 .footer a{
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    color: rgba(240, 248, 255, 0.59);
-    margin-left: 0.2em;
+    display: none;
 }
 @media only screen and (min-width:0em) and (max-width:31.8em){
     .links{
