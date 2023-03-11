@@ -1,0 +1,230 @@
+*{
+    list-style-type: none;
+    margin:0;
+    -webkit-tap-highlight-color: transparent;
+}
+::-webkit-scrollbar {
+    width: 0.3em;
+}
+::-webkit-scrollbar-track {
+background: #1b1b1b;
+}
+::-webkit-scrollbar-thumb {
+background: #ff0077;
+border-radius: 0.5em;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ff499e;
+}
+body{
+    background-image: url(/Images/retro-sunset-on-free-ipad-1050s5yhk14czhm0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nave{
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 0.01em solid rgb(255, 0, 115);
+    margin-left: -2em;
+    height: 3.5em;
+}
+.nave a{
+    text-decoration: none;
+    color: rgb(240, 248, 255);
+    font-size: 0.8em;
+    line-height: 4em;
+    padding: 1.8em 1em;
+    transition: 0.2s;
+}
+.nave__icon{
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0.5em;
+    margin-top: 0.7em;
+}
+.nave__left:hover{
+    background-color: rgba(255, 0, 115, 0.814);
+}
+.nave__right:hover{
+    background-color: rgba(255, 0, 115, 0.814);
+}
+.nave__icon:hover{
+    filter: drop-shadow(0.5px 0.5px 0.5px #ffffff);
+}
+/*END OF NAV*/
+#newuser{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+.NewUserpresentation{
+    position: relative;
+    z-index: 100;
+    text-align: center;
+    justify-content: center;
+    color:rgba(255, 255, 255, 0.858);
+    padding-right:3em ;
+    border:0.1em solid #ff0077;
+    border-radius: 1em;
+    margin-right: -1em;
+    height: 25em;
+    width: 30em;
+    backdrop-filter: blur(3px);
+    box-shadow:0 0 1em rgba(255, 43, 138, 0.619);
+}
+.NewUserpresentation h3{ 
+    font-family: 'Saira', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    text-shadow: rgb(22, 22, 22) 0px 0 10px;
+    line-height: 2em;
+    padding: 0.1em;
+    margin-top: 1.5em;
+    margin-bottom: -0.5em;
+}
+.NewUserpresentation p{ 
+    font-family: 'Saira', sans-serif;
+    font-size: 1.2em;
+    font-weight: 900;
+    text-shadow: rgb(22, 22, 22) 0px 0 10px;
+    line-height: 2em;
+    padding: 0.1em;
+    margin-top: 1.5em;
+    margin-bottom: -0.5em;
+}
+.signup{
+    position: relative;
+    z-index: 200;
+    justify-content: center;
+    text-align: center;
+    background:rgb(255, 183, 199);
+    background: linear-gradient(90deg, rgb(255, 183, 199) 60%, rgb(253, 101, 154) 100%);
+    background: -moz-linear-gradient(90deg, rgb(255, 183, 199) 60%,rgb(236, 116, 158) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(255, 183, 199) 60%, rgb(244, 104, 153) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFD1DB", endColorstr="#FF6F8E", GradientType=1 );
+    height: 25em;
+    width: 30em;
+    border:0.1em solid #ff0059;
+    border-radius: 1em;
+    margin-left: -3em;
+}
+.signup h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    color:rgba(255, 255, 255, 0.858);
+    line-height: 0.2em;
+    padding: 0.8em;
+    margin: 0.1em 0em 0em 0em;
+}
+.signup__form--input{
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: 600;
+    background-color:rgba(255, 255, 255, 0.745);
+    padding: 0.5em;
+    border: 0.2em solid rgba(255, 255, 255, 0.486);
+    border-radius: 1.5em;
+    margin-top:1em ;
+    width: 20em;
+}
+.signup__form--input::placeholder{
+    color: #fc86ab;
+}
+.signup h6{
+    font-family: 'Saira', sans-serif;
+    color:rgba(255, 255, 255, 0.858);
+}
+.signup__form--forgotpassword{
+    font-family: 'Saira', sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #e9ecee;
+}
+.signup__form--signup{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #ff8fb1;
+    border: 2px solid #ffffff;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 0.6em;
+    width: 8em;
+    margin-left: 2.1em;
+}
+.signup__form--signup:hover{
+    background-color: #fe6b97;
+    transition: 0.2s;
+}
+.signup h5{
+    font-family: 'Saira', sans-serif;
+    font-size: 1em;
+    color:rgba(255, 255, 255, 0.858);
+}
+.footer{
+    display: none;
+}
+@media only screen and (min-width:0em) and (max-width:60.5em){
+    #newuser{
+        display: flex;
+        justify-content: center;
+    }
+    .NewUserpresentation{
+        display: none;
+    }
+    .signup{
+        margin-left: 0em;
+    }
+}
+@media only screen and (min-width:0em) and (max-width:31em){
+    #archives{
+    display: none;
+   }
+   #aboutus{
+    display: none;
+   }
+   #socialmedia{
+    margin-left: -5em;
+    margin-right: 2em;
+    padding-left: 2em;
+   }
+   #goback{
+    margin-right: -1.5em;
+    padding-right: 2em;
+   }
+   .signup{
+    width: 22em;
+    margin-left: 0em;
+    background:rgb(255, 183, 199);
+    border:0.1px solid #ff0059;
+    background: linear-gradient(90deg, rgb(255, 183, 245) 60%, rgb(253, 101, 154) 100%);
+    background: -moz-linear-gradient(90deg, rgb(255, 183, 199) 60%,rgb(236, 116, 158) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255, 196, 208, 0.068) 60%, rgba(255, 36, 113, 0.484) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFD1DB", endColorstr="#FF6F8E", GradientType=1 );
+    backdrop-filter: blur(3px);
+}
+.signup__form--Username{
+    background-color: #1b1b1b29;
+    border: 1px solid#ff0059;
+}
+.signup__form--input{
+    background-color: #1b1b1b29;
+    border: 1px solid#ff0059;
+}
+.signup__form--input::placeholder{
+    color:#dadada;
+}
+.signup__form--rememberme--box + label {
+    margin-top: 0.3em;
+    margin-left: -2.5em;
+}
+.signup__form--signup{
+    color: #ebebeb;
+    background-color: #fc467d;
+    border: 2px solid #dadada;
+}
+}
