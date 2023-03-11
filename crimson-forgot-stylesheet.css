@@ -176,7 +176,6 @@ body{
 }
 .forgotpassword__form--Username{
     background-color: #1b1b1b29;
-    backdrop-filter: blur(0px);
     border: 1px solid#ff0059;
 }
 
