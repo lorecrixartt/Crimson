@@ -259,7 +259,7 @@ body{
     background:rgb(255, 183, 199);
     background: linear-gradient(90deg, rgb(255, 183, 245) 60%, rgb(253, 101, 154) 100%);
     background: -moz-linear-gradient(90deg, rgb(255, 183, 199) 60%,rgb(236, 116, 158) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(255, 196, 208, 0.068) 60%, rgba(255, 36, 113, 0.705) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255, 196, 208, 0.068) 60%, rgba(255, 36, 113, 0.484) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFD1DB", endColorstr="#FF6F8E", GradientType=1 );
     backdrop-filter: blur(3px);
 }
@@ -273,14 +273,14 @@ body{
     border: 2px solid #dadada;
 }
 .login__form--Username{
-    background-color: #1b1b1b00;
+    background-color: #1b1b1b29;
     backdrop-filter: blur(0px);
-    border: 2px solid  #ff2571;
+    border: 1px solid  #ff2571;
 }
 .login__form--Password{
-    background-color: #1b1b1b00;
+    background-color: #1b1b1b29;
     backdrop-filter: blur(0px);
-    border: 2px solid #ff2571;
+    border: 1px solid #ff2571;
 }
 .login__form--Username::placeholder{
     color: #ebebeb;
