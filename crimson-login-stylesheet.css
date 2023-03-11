@@ -274,10 +274,12 @@ body{
 }
 .login__form--Username{
     background-color: #1b1b1b00;
-    border: 2px solid #ff2571;
+    backdrop-filter: blur(0px);
+    border: 2px solid #ffd0e0;
 }
 .login__form--Password{
     background-color: #1b1b1b00;
+    backdrop-filter: blur(0px);
     border: 2px solid #ff2571;
 }
 }
