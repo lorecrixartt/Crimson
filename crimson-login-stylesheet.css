@@ -273,9 +273,11 @@ body{
     border: 2px solid #dadada;
 }
 .login__form--Username{
-    background-color: #1b1b1b9f;
+    background-color: #1b1b1b00;
+    border: 2px solid #ff2571;
 }
 .login__form--Password{
-    background-color: #1b1b1b9f;
+    background-color: #1b1b1b00;
+    border: 2px solid #ff2571;
 }
 }
